@@ -1,0 +1,591 @@
+.Balloon {
+	text-align: center;
+}
+
+.Balloon-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+.Text {
+	color: rgb(231, 182, 118);
+	position: absolute;
+	display: flex-start;
+	flex-direction: column;
+	align-items: center;
+	top: 30%;
+	font-size: 100px;
+}
+
+.Text2 {
+	color: rgba(29, 3, 3, 0.555);
+	position: absolute;
+	display: flex-start;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	flex-direction: column;
+	line-height: 35px;
+	align-items: center;
+	top: 30%;
+	font-size: 20px;
+	margin-top: -130px;
+	margin-left: 500px;
+	margin-right: 70px;
+	margin-bottom: 200px;
+}
+
+.Text3 {
+	color: rgba(29, 3, 3, 0.555);
+	position: absolute;
+	display: flex-start;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	flex-direction: column;
+	line-height: 35px;
+	align-items: center;
+	top: 21%;
+	font-size: 20px;
+	margin-top: -100px;
+	margin-left: 900px;
+	margin-right: 70px;
+	margin-bottom: 200px;
+}
+
+.Text4 {
+	color: rgba(29, 3, 3, 0.555);
+	position: absolute;
+	display: flex-start;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	flex-direction: column;
+	line-height: 35px;
+	align-items: center;
+	top: 21%;
+	font-size: 20px;
+	margin-top: -100px;
+	margin-left: 100px;
+	margin-right: 80px;
+	margin-bottom: 200px;
+}
+
+.Text5 {
+	color: rgba(29, 3, 3, 0.555);
+	position: absolute;
+	display: flex-start;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	flex-direction: column;
+	line-height: 30px;
+	align-items: center;
+	top: 21%;
+	font-size: 12px;
+	margin-top: 480px;
+	margin-left: 128px;
+	margin-right: 80px;
+	margin-bottom: 200px;
+}
+
+.Text6 {
+	color: rgba(29, 3, 3, 0.555);
+	position: absolute;
+	display: flex-start;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	flex-direction: column;
+	line-height: 70px;
+	align-items: center;
+	top: 15%;
+	font-size: 60px;
+	margin-left: 110px;
+	margin-right: 80px;
+	margin-bottom: 200px;
+}
+
+.img1 {
+	position: absolute;
+	width: 350px;
+	left: 70px;
+	top: 175px;
+}
+
+.wave {
+	position: absolute;
+	width: 150px;
+	left: 230px;
+	top: 375px;
+}
+
+.img2 {
+	position: absolute;
+	width: 300px;
+	left: 155px;
+	top: 355px;
+}
+
+.img3 {
+	position: absolute;
+	width: 750px;
+	left: 90px;
+	top: 105px;
+}
+
+.Info1 {
+	border-radius: 20px;
+	background: #ebe4cf;
+	position: absolute;
+	width: 900px;
+	height: 700px;
+	top: 100%;
+	left: 60%;
+}
+
+.Info2 {
+	border-radius: 20px;
+	background: #ebe4cf;
+	position: absolute;
+	width: 1300px;
+	height: 700px;
+	top: 200%;
+	left: 10%;
+}
+
+.Info3 {
+	border-radius: 20px;
+	background: #ebe4cf;
+	position: absolute;
+	width: 600px;
+	height: 700px;
+	top: 300%;
+	left: 60%;
+}
+
+.Info4 {
+	border-radius: 20px;
+	background: #ebe4cf;
+	position: absolute;
+	width: 600px;
+	height: 700px;
+	top: 300%;
+	left: 15%;
+}
+
+.divOption {
+	color: rgb(231, 182, 118);
+	position: absolute;
+	display: flex-start;
+	flex-direction: column;
+	align-items: center;
+	top: 45%;
+	left: 41%;
+	font-size: 60px;
+}
+
+.emailIcon {
+	height: 50px;
+	position: absolute;
+	top: 38px;
+	left: 48px;
+	opacity: 0.5;
+}
+
+.linkedInIcon {
+	height: 50px;
+	position: absolute;
+	top: 38px;
+	left: 163px;
+	opacity: 0.5;
+}
+
+.githubIcon {
+	height: 50px;
+	position: absolute;
+	top: 38px;
+	left: 279px;
+	opacity: 0.5;
+}
+
+.resumeIcon {
+	height: 50px;
+	position: absolute;
+	top: 38px;
+	left: 395px;
+	opacity: 0.5;
+}
+
+.TextStudent {
+	color: rgb(236, 207, 168);
+	top: -20px;
+	font-size: 40px;
+	margin-top: 5px;
+}
+
+.Balloon-header {
+	background: linear-gradient(rgb(5, 5, 8), rgb(156, 92, 117), rgb(233, 187, 101));
+	background-color: white;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+}
+
+.Balloon-link {
+	color: #61dafb;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.Balloon-logo1 {
+		animation: Balloon-logo-float1 infinite 20s linear;
+		height: 500px;
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.moon {
+		color: rgb(231, 182, 118);
+		position: absolute;
+		display: flex-start;
+		flex-direction: column;
+		align-items: center;
+		top: 50px;
+		left: 50px;
+		height: 300px;
+		opacity: 0.2;
+		animation: moonAnimation infinite 300s linear;
+		animation-delay: 25s;
+		opacity: 0;
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.sun {
+		color: rgb(231, 182, 118);
+		position: absolute;
+		display: flex-start;
+		flex-direction: column;
+		align-items: center;
+		top: 2800px;
+		left: 50px;
+		height: 300px;
+		opacity: 0.2;
+		animation: sunAnimation infinite 300s linear;
+		animation-delay: 25s;
+		opacity: 0;
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.Balloon-logo2 {
+		animation: Balloon-logo-float2 infinite 36s linear;
+		height: 300px;
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.Balloon-logo3 {
+		animation: Balloon-logo-float3 infinite 50s linear;
+		height: 150px;
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.Balloon-logo4 {
+		animation: Balloon-logo-float4 infinite 25s linear;
+		height: 600px;
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.Balloon-logo6 {
+		animation: Balloon-logo-float6 infinite 70s linear;
+		height: 500px;
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.Balloon-logo5 {
+		animation: Balloon-logo-float5 infinite 100s linear;
+		height: 900px;
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.Balloon-logo7 {
+		animation: Balloon-logo-float7 infinite 50s linear;
+		height: 300px;
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.Balloon-logo8 {
+		animation: Balloon-logo-float8 infinite 50s linear;
+		animation-delay: 50s;
+		opacity: 0;
+		height: 1200px;
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.Balloon-logo9 {
+		animation: Balloon-logo-float9 infinite 30s linear;
+		height: 600px;
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.Balloon-logo10 {
+		animation: Balloon-logo-float10 infinite 50s linear;
+		height: 600px;
+	}
+}
+
+@keyframes moonAnimation {
+	0% {
+		transform: translate(0px, -100px);
+		opacity: 0;
+	}
+	25% {
+		transform: translate(450, -180px);
+		opacity: 0.4;
+	}
+	50% {
+		transform: translate(900px, -200px);
+		opacity: 0.4;
+	}
+	75% {
+		transform: translate(1340px, -180px);
+		opacity: 0.4;
+	}
+	100% {
+		transform: translate(1800px, 0px);
+		opacity: 0;
+	}
+}
+
+@keyframes sunAnimation {
+	0% {
+		transform: translate(1800px, 0px);
+		opacity: 0;
+	}
+	25% {
+		transform: translate(1340px, -180px);
+		opacity: 0.4;
+	}
+	50% {
+		transform: translate(900px, -200px);
+		opacity: 0.4;
+	}
+	75% {
+		transform: translate(450, -180px);
+		opacity: 0.4;
+	}
+	100% {
+		transform: translate(0px, -100px);
+		opacity: 0;
+	}
+}
+
+@keyframes Balloon-logo-float2 {
+	0% {
+		transform: translate(0px, 100px);
+		opacity: 0;
+	}
+	25% {
+		transform: translate(-100px, -600px);
+		opacity: 0.5;
+	}
+	100% {
+		transform: translate(-250px, -1500px);
+		opacity: 0;
+	}
+}
+
+@keyframes Balloon-logo-float4 {
+	0% {
+		transform: translate(500px, 500px);
+		opacity: 0;
+	}
+	30% {
+		transform: translate(600px, -300px);
+		opacity: 0.5;
+	}
+	100% {
+		transform: translate(1000px, -1500px);
+		opacity: 0;
+	}
+}
+
+@keyframes Balloon-logo-float3 {
+	0% {
+		transform: translate(600px, 100px);
+		opacity: 0;
+	}
+	20% {
+		transform: translate(680px, -400px);
+		opacity: 0.5;
+	}
+	100% {
+		transform: translate(950px, -1500px);
+		opacity: 0;
+	}
+}
+
+@keyframes Balloon-logo-float1 {
+	0% {
+		transform: translate(-500px, 100px);
+		opacity: 0;
+	}
+	20% {
+		transform: translate(-550px, -500px);
+		opacity: 0.5;
+	}
+	100% {
+		transform: translate(-650px, -2500px);
+		opacity: 0;
+	}
+}
+
+@keyframes Balloon-logo-float5 {
+	0% {
+		transform: translate(-1000px, -850px);
+		opacity: 0;
+	}
+	30% {
+		transform: translate(-1100px, -1200px);
+		opacity: 0.5;
+	}
+	100% {
+		transform: translate(-1550px, -2650px);
+		opacity: 0;
+	}
+}
+
+@keyframes Balloon-logo-float6 {
+	0% {
+		transform: translate(600px, -100px);
+		opacity: 0;
+	}
+	30% {
+		transform: translate(500px, -500px);
+		opacity: 0.5;
+	}
+	100% {
+		transform: translate(250px, -2000px);
+		opacity: 0;
+	}
+}
+
+@keyframes Balloon-logo-float7 {
+	0% {
+		transform: translate(-600px, -100px);
+		opacity: 0;
+	}
+	30% {
+		transform: translate(-300px, -500px);
+		opacity: 0.5;
+	}
+	100% {
+		transform: translate(250px, -1500px);
+		opacity: 0;
+	}
+}
+
+@keyframes Balloon-logo-float8 {
+	0% {
+		transform: translate(-900px, -1500px);
+		opacity: 0;
+	}
+	30% {
+		transform: translate(-800px, -1800px);
+		opacity: 0.5;
+	}
+	100% {
+		transform: translate(-700px, -3000px);
+		opacity: 0;
+	}
+}
+
+
+@keyframes Balloon-logo-float9 {
+	0% {
+		transform: translate(900px, -900px);
+		opacity: 0;
+	}
+	30% {
+		transform: translate(750px, -1100px);
+		opacity: 0.5;
+	}
+	100% {
+		transform: translate(500px, -1500px);
+		opacity: 0;
+	}
+}
+
+@keyframes Balloon-logo-float10 {
+	0% {
+		transform: translate(100, 1500px);
+		opacity: 0.2;
+	}
+	30% {
+		transform: translate(750px, -1100px);
+		opacity: 0.5;
+	}
+	100% {
+		transform: translate(100, 1500px);
+		opacity: 00.2;
+	}
+}
+
+body {
+	background: #1A1A1A;
+}
+
+.socialsy {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	width: 80px;
+	height: 80px;
+	margin: -20px 0 0 30px;
+	border: none;
+	font: normal 100%/normal Arial, Helvetica, sans-serif;
+	-o-text-overflow: clip;
+	text-overflow: clip;
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+.socialsy div {
+	width: 80px;
+	height: 80px;
+	font-size: 40px;
+	text-align: center;
+	line-height: 80px;
+	color: #3a5795;
+	font-weight: bold;
+	display: flex;
+	flex-direction: row;
+}
+
+.bgfc {
+	border: 3px solid #ffffff;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.bgfc div {
+	color: #ffffff;
+}
+
+.bgfc:hover {
+	border: 3px solid #ffffff;
+	background-color: rgba(202, 184, 195, 0.8);
+	transition: all .7s;
+}
+
+.bgfc:hover div {
+	color: #fff;
+	transition: all .7s;
+}
