@@ -55,7 +55,7 @@ function App() {
             going on long walks. I am also a big fan of musicals, though I have
             never attended one in person before. I starred in one during my
             first year at University! I also sing in the only all-female a
-            cappella group at my university. Check us out on youtube (click
+            cappella group at my university. Check us out on YouTube (click
             photo).
           </p>
         </p>
