@@ -13,7 +13,12 @@ import balloon from "./images/balloons.png";
 import img3 from "./images/img3.jpg";
 import wave from "./images/wave.gif";
 
+function componentDidMount() {
+  document.title = "Flora Chen";
+}
+
 function App() {
+  componentDidMount();
   return (
     <div className="Balloon">
       <header className="Balloon-header">
