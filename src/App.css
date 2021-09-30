@@ -173,17 +173,17 @@
 	color: rgb(231, 182, 118);
 	position: absolute;
 	display: flex-start;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 	top: 45%;
-	left: 41%;
+	left: -3%;
 	font-size: 60px;
 }
 
 .emailIcon {
 	height: 50px;
 	position: absolute;
-	top: 38px;
+	top: 58px;
 	left: 48px;
 	opacity: 0.5;
 }
@@ -191,7 +191,7 @@
 .linkedInIcon {
 	height: 50px;
 	position: absolute;
-	top: 38px;
+	top: 58px;
 	left: 163px;
 	opacity: 0.5;
 }
@@ -199,7 +199,7 @@
 .githubIcon {
 	height: 50px;
 	position: absolute;
-	top: 38px;
+	top: 58px;
 	left: 279px;
 	opacity: 0.5;
 }
@@ -207,7 +207,7 @@
 .resumeIcon {
 	height: 50px;
 	position: absolute;
-	top: 38px;
+	top: 58px;
 	left: 395px;
 	opacity: 0.5;
 }
@@ -222,7 +222,7 @@
 .Balloon-header {
 	background: linear-gradient(rgb(5, 5, 8), rgb(156, 92, 117), rgb(233, 187, 101));
 	background-color: white;
-	min-height: 100vh;
+	min-height: 500vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -553,7 +553,8 @@ body {
 	-o-text-overflow: clip;
 	text-overflow: clip;
 	float: left;
-	margin-top: 20px;
+	margin-top: 40px;
+	left: 50px;
 	margin-left: 30px;
 	cursor: pointer;
 }

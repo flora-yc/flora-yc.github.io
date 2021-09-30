@@ -82,8 +82,7 @@ function App() {
         <p className="Text">
           Flora Chen
           <p className="TextStudent">Computer Science Student</p>
-        </p>
-        <p className="divOption">
+          <p className="divOption">
           <div
             class="socialsy bgfc"
             onClick={() => window.open("mailto:flora1591@hotmail.com")}
@@ -120,6 +119,8 @@ function App() {
             <img src={resume} className="resumeIcon" alt="resume" />
           </div>
         </p>
+        </p>
+        
         <img src={logo} className="Balloon-logo2" alt="logo" />
         <img src={logo} className="Balloon-logo3" alt="logo" />
         <img src={logo} className="Balloon-logo4" alt="logo" />
