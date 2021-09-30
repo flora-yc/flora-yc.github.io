@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.57fe7134.chunk.css",
+    "main.js": "/website/static/js/main.84385524.chunk.js",
+    "main.js.map": "/website/static/js/main.84385524.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.20411c50.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.20411c50.js.map",
+    "static/js/2.f05dbb83.chunk.js": "/website/static/js/2.f05dbb83.chunk.js",
+    "static/js/2.f05dbb83.chunk.js.map": "/website/static/js/2.f05dbb83.chunk.js.map",
+    "static/js/3.d1a3ccd6.chunk.js": "/website/static/js/3.d1a3ccd6.chunk.js",
+    "static/js/3.d1a3ccd6.chunk.js.map": "/website/static/js/3.d1a3ccd6.chunk.js.map",
+    "index.html": "/website/index.html",
+    "static/css/main.57fe7134.chunk.css.map": "/website/static/css/main.57fe7134.chunk.css.map",
+    "static/js/2.f05dbb83.chunk.js.LICENSE.txt": "/website/static/js/2.f05dbb83.chunk.js.LICENSE.txt",
+    "static/media/Flora Chen Resume.35c497d1.pdf": "/website/static/media/Flora Chen Resume.35c497d1.pdf",
+    "static/media/balloon.56945a74.svg": "/website/static/media/balloon.56945a74.svg",
+    "static/media/balloons.b5088c74.png": "/website/static/media/balloons.b5088c74.png",
+    "static/media/img1.e0c88b34.jpg": "/website/static/media/img1.e0c88b34.jpg",
+    "static/media/img3.744418c6.jpg": "/website/static/media/img3.744418c6.jpg",
+    "static/media/moon.cc01eb99.svg": "/website/static/media/moon.cc01eb99.svg",
+    "static/media/sun.32f89fab.svg": "/website/static/media/sun.32f89fab.svg",
+    "static/media/wave.0ad4cd92.gif": "/website/static/media/wave.0ad4cd92.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20411c50.js",
+    "static/js/2.f05dbb83.chunk.js",
+    "static/css/main.57fe7134.chunk.css",
+    "static/js/main.84385524.chunk.js"
+  ]
+}
